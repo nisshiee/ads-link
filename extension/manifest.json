@@ -1,0 +1,13 @@
+{
+  "name": "Ads Link",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "リスティングLP直リンクを追加します。",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.co.jp/search*"],
+      "js": ["jquery.min.js","script.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
