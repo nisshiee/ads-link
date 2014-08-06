@@ -7,7 +7,7 @@
     {
       "matches": ["https://www.google.co.jp/search*"],
       "js": ["jquery.min.js","script.js"],
-      "run_at": "document_start"
+      "run_at": "document_end"
     }
   ]
 }
